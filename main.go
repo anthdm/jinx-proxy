@@ -8,14 +8,14 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/twanies/proxme/proxy"
+	"github.com/twanies/jinx/proxy"
 )
 
 const defaultAddr = ":9999"
 
 func main() {
 	var (
-		conf = flag.String("conf", "conf/proxme.conf", "config filename")
+		conf = flag.String("conf", "conf/jinx.conf", "config filename")
 	)
 	flag.Parse()
 
